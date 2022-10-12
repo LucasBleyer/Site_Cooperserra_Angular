@@ -1,0 +1,8 @@
+
+.nav-link:hover{
+  color: rgba(221, 221, 221, 0.76);
+}
+
+.bg-danger{
+  background-color: #CA0000 !important;
+}
