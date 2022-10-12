@@ -1,7 +1,3 @@
-a{
-  text-decoration: none;
-}
-
 @media (max-width:999px){
   .banner{
      margin-top: 10vh;
@@ -15,6 +11,10 @@ a{
   .tipos > img{
      width: 350px;
   }
+}
+
+a{
+  text-decoration: none;
 }
 
 .banner{
@@ -105,4 +105,12 @@ a{
   text-align: left;
   color:rgba(0, 0, 0, 0.638);
   margin-bottom: 20px;
+}
+
+.text-danger{
+  color: #CA0000 !important;
+}
+
+.btn-danger{
+  color: #CA0000 !important;
 }
