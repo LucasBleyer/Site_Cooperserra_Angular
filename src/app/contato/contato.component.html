@@ -1,1 +1,21 @@
-<p>contato works!</p>
+<section class="contato">
+  <form action="https://formsubmit.co/recepcao@cooperserra.com.br" method="POST" class="form">
+
+     <label class="titulo_input" for="name">Nome*</label>
+     <input type="text" name="Nome" id="name" placeholder="Digite seu nome..." required />
+
+     <label class="titulo_input" for="email">E-mail*</label>
+     <input type="email" name="Email" id="email" placeholder="Digite seu email..."  required />
+
+     <label class="titulo_input" for="email">Cidade*</label>
+     <input type="text" name="Cidade" id="cidade" placeholder="Digite o nome da sua cidade..."/>
+
+     <label class="titulo_input" for="message">Mensagem*</label>
+     <textarea name="Mensagem" id="message" placeholder="Deixe sua mensagem..."  required></textarea>
+
+     <input type="hidden" name="_captcha" value="false" />
+     <input type="hidden"name="_next" value="http://www.cooperserra.com.br/contato_obrigado.html"/>
+
+     <button type="submit">Enviar</button>
+  </form>
+</section>
