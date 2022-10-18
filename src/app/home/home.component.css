@@ -6,15 +6,14 @@
   background-color: #ca000c !important;
 }
 
-
 @media (max-width:999px){
   .historia_maca > p{
-     margin-left: 25px;
-     margin-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .tipos > img{
-     width: 350px;
+    width: 350px;
   }
 }
 
