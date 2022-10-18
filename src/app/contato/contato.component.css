@@ -6,7 +6,7 @@
 
 .contato {
   background-color: rgb(202,0,0);
-  background-image: url(../../assets/img/red_white_abstract.png);
+  /* background-image: url(../../assets/img/red_white_abstract.png); */
   background-size:cover;
   background-position: center;
   min-height: 100vh;
