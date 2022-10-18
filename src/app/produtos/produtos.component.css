@@ -1,3 +1,12 @@
+.text-danger{
+  color: #CA0000 !important;
+}
+
+.btn-danger{
+  background-color: #CA0000 !important;
+}
+
+
 @media (max-width:999px){
   h1{
      padding: 0 25px;
@@ -80,36 +89,6 @@ p{
 .new{
   max-width: 760px;
   border-radius: 10px;
-}
-
-.produtos_plastico{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.produto h3{
-  width: 300px;
-  margin-top: -4px;
-  text-align: center;
-  color: #fff;
-  background-color: rgb(202, 0, 0);
-  font-family: 'Lato';
-  font-size: 23px;
-
-}
-
-.produto p{
-  width: 290px;
-  text-align: center;
-  padding: 5px;
-  color: rgb(202,0,0);
-  background-color: rgb(255, 255, 255);
-  font-family: 'Lato';
-  font-size: 18px;
 }
 
 .botao_receitas a{
