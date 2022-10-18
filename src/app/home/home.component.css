@@ -13,14 +13,10 @@ a{
   text-decoration: none;
 }
 
-.banner{
-  width: 100%;
-  margin-bottom: -10px;
-}
-
-.body{
-  background-image: url(../../assets/img/background_white_empresa.jpg);
-  background-size: 100%;
+.banner_home{
+  height: 90vh;
+  background-image: url(../../assets/img/banners/banner-home.png);
+  background-size: cover;
 }
 
 .historia_maca{
@@ -28,7 +24,7 @@ a{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(../../assets/img/banner_galhos.png);
+  /* background-image: url(../../assets/img/banner_galhos.png); */
   background-size: 100%;
   background-repeat: no-repeat;
 }
