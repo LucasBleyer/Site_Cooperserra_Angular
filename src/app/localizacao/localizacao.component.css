@@ -2,11 +2,18 @@
   overflow-x: hidden;
 }
 
-.bg_local{
+.banner-localizacao{
+  height: 90vh;
+  background-image: url(../../assets/img/banners/banner-localizacao.png);
+  background-size: cover;
+}
+
+
+/* .bg_local{
  background-image: url(../../assets/img/banner_galhos_top.png);
  background-size: 100%;
  background-repeat: no-repeat;
-}
+} */
 
 h1{
  display: flex;
@@ -29,9 +36,9 @@ h1{
 
 .bg_mapa{
  margin-top: 40px;
- background-image: url(../../assets/img/background_white.png);
+ /* background-image: url(../../assets/img/background_white.png);
  background-size: cover;
- background-position: center;
+ background-position: center; */
 }
 
 .google_maps{
