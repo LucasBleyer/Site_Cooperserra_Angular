@@ -27,8 +27,18 @@
   margin-bottom: 50px;
 }
 
-.form input,
+.form label{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
 .form textarea{
+  border-radius: 5px;
+}
+
+.form input,
+.form textarea,
+.form option{
   display: block;
   width: 100%;
 }
@@ -39,13 +49,13 @@
 }
 
 .form input,
-.form textarea {
+.form textarea,
+.form option {
   font: inherit;
   padding: 0.8rem;
   margin-top: 5px;
   margin-bottom: 20px;
   border: 2px solid transparent;
-  border-radius: 20px;
   transition: border-color 0.2s;
 }
 
@@ -56,6 +66,8 @@
 
 .form input:hover,
 .form input:focus,
+.form select:hover,
+.form select:focus,
 .form textarea:hover,
 .form textarea:focus {
   outline: none;
