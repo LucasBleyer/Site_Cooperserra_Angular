@@ -1,3 +1,12 @@
+.text-danger{
+  color: #ca000c !important;
+}
+
+.btn-danger{
+  background-color: #ca000c !important;
+}
+
+
 @media (max-width:999px){
   .historia_maca > p{
      margin-left: 25px;
@@ -54,55 +63,4 @@ a{
 
 .link_receitas:hover{
   color: rgb(174, 0, 0);
-}
-
-.informacoes{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.informacoes > .tipos{
-  width: 600px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  margin: 2vw;
-}
-
-.informacoes h1{
-  color: rgb(206, 0, 0);
-  display: flex;
-  margin: 45px;
-  font-weight:900;
-  font-size:xx-large;
-  text-align: center;
-}
-
-.tipos_text{
-  margin-bottom: 40px;
-}
-
-.tipos > img{
-  max-width: 600px;
-  border-radius: 20px;
-}
-
-.fontes{
-  font-size: 10px;
-  text-align: left;
-  color:rgba(0, 0, 0, 0.638);
-  margin-bottom: 20px;
-}
-
-.text-danger{
-  color: #CA0000 !important;
-}
-
-.btn-danger{
-  color: #CA0000 !important;
 }
