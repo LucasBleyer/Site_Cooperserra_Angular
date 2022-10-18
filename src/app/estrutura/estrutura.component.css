@@ -55,7 +55,10 @@
 }
 
 .antigas{
-  max-width: 730px;
+  display: flex;
+  justify-content: center;
+  min-width: 480px;
+  width: 70vw;
 }
 
 .after_before img{
@@ -140,8 +143,9 @@ h2{
   align-items: center;
   text-align: left;
   max-width: 695px;
+  min-width: 400px;
   font-size: 22px;
   margin-left: 45px;
-  margin-top: -25px;
+  margin-top: -37px;
   font-family: tahoma;
 }
