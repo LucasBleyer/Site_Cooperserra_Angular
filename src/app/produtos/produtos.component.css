@@ -37,11 +37,11 @@
   background-size: 100%;
 } */
 
-.galhos{
+/* .galhos{
   background-image: url(../../assets/img/galhos_invertidos.png);
   background-size: 100%;
   background-position: center;
-}
+} */
 
 h1{
   display: flex;
