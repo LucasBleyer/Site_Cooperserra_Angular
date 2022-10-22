@@ -6,6 +6,18 @@
   background-color: #ca000c !important;
 }
 
+.btn-outline-danger{
+  font-size: 22px;
+  border-color: #ca000c;
+  color: #ca000c;
+}
+
+.btn-outline-danger:hover{
+  background-color: #ffffff !important;
+  border-color: #ab000b;
+  color: #ab000b;
+}
+
 @media (max-width:999px){
   .historia_maca > p{
     margin-left: 25px;

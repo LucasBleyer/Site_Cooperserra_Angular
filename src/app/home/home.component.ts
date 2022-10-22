@@ -1,7 +1,6 @@
-import { Content } from '@angular/compiler/src/render3/r3_ast';
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { NgbModal, NgbModalConfig } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-home',
@@ -17,6 +16,10 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  public abrirReceitas(modalReceitas: TemplateRef<NgbModal>){
+    this.modalService.open(modalReceitas);
+  }
+
   public abrirDiferencas(modalDiferencas: TemplateRef<NgbModal>){
     this.modalService.open(modalDiferencas);
   }
@@ -24,4 +27,5 @@ export class HomeComponent implements OnInit {
   public abrirTabela(modalTabela: TemplateRef<NgbModal>){
     this.modalService.open(modalTabela);
   }
+
 }
