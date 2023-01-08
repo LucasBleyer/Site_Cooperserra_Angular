@@ -34,8 +34,10 @@ a{
 }
 
 .banner_home{
-  height: 90vh;
+  height:100vh;
   background-image: url(../../assets/img/banners/banner-home.png);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
