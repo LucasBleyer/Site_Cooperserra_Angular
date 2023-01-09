@@ -15,10 +15,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  public abrirReceitas(modalReceitas: TemplateRef<NgbModal>){
-    this.modalService.open(modalReceitas);
-  }
-
   public abrirDiferencas(modalDiferencas: TemplateRef<NgbModal>){
     this.modalService.open(modalDiferencas);
   }

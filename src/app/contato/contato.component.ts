@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
 @Component({
@@ -14,5 +14,4 @@ export class ContatoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
