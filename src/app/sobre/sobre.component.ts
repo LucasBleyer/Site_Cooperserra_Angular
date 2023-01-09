@@ -3,8 +3,7 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-sobre',
-  templateUrl: './sobre.component.html',
-  styleUrls: ['./sobre.component.css']
+  templateUrl: './sobre.component.html'
 })
 export class SobreComponent implements OnInit {
 
