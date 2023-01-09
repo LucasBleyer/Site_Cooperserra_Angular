@@ -1,12 +1,3 @@
-.text-danger{
-  color: #CA0000 !important;
-}
-
-.btn-danger{
-  background-color: #CA0000 !important;
-}
-
-
 @media (max-width:999px){
   h1{
      padding: 0 25px;
@@ -32,35 +23,6 @@
   background-size: cover;
 }
 
-/* .bg_produtos{
-  background-image: url(../../assets/img/background_white_empresa.jpg);
-  background-size: 100%;
-} */
-
-/* .galhos{
-  background-image: url(../../assets/img/galhos_invertidos.png);
-  background-size: 100%;
-  background-position: center;
-} */
-
-h1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  color: rgb(206, 0, 0);
-  font-weight:900;
-  font-size: 45px;
-}
-
-p{
-  margin: 0 auto;
-  text-align: center;
-  max-width: 900px;
-  font-size: 24px;
-}
 
 .produtos{
   display: flex;
@@ -90,36 +52,4 @@ p{
 .new{
   max-width: 760px;
   border-radius: 10px;
-}
-
-.botao_receitas a{
-  margin: 30px;
-  background-color: rgb(202,0,0);
-  color: #fff;
-  padding: 10px 50px 10px 50px;
-  text-decoration: none;
-  font-size: 26px;
-  border-radius: 50px;
-}
-
-.receitas div{
-  display: flex;
-  align-items: center;
-  justify-self:center;
-  flex-direction: column;
-  font-family: tahoma;
-}
-
-.produto > img{
-  background-color: #fff;
-}
-
-.botao_receitas :hover{
- background-color: rgb(128, 0, 0);
-}
-
-.botao_receitas{
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
