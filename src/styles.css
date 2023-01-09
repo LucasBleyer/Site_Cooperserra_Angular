@@ -29,3 +29,16 @@ p{
   border-color: #ab000b;
   color: #ab000b;
 }
+
+.bg-danger{
+  background-color: #CA0000 !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgba(255, 255, 255, 0.795)!important;
+}
+
