@@ -5,9 +5,6 @@
 }
 
 .contato {
-  background-image: url(../../assets/img/banners/background-geral.png);
-  background-size:cover;
-  background-position: center;
   min-height: 100vh;
   display: flex;
   align-items: center;
