@@ -3,8 +3,7 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-localizacao',
-  templateUrl: './localizacao.component.html',
-  styleUrls: ['./localizacao.component.css']
+  templateUrl: './localizacao.component.html'
 })
 export class LocalizacaoComponent implements OnInit {
 
