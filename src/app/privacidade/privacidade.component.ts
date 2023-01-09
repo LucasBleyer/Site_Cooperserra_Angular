@@ -3,8 +3,7 @@ import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-privacidade',
-  templateUrl: './privacidade.component.html',
-  styleUrls: ['./privacidade.component.css']
+  templateUrl: './privacidade.component.html'
 })
 export class PrivacidadeComponent implements OnInit {
 
@@ -14,5 +13,4 @@ export class PrivacidadeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

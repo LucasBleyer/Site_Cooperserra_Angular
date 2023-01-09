@@ -3,3 +3,29 @@ body{
   background-size: 100%;
   background-repeat: repeat;
 }
+
+
+.text-danger{
+  color: #ca000c !important;
+}
+
+p{
+  font-size: 18px;
+  font-family: tahoma;
+}
+
+.btn-danger{
+  background-color: #ca000c !important;
+}
+
+.btn-outline-danger{
+  font-size: 22px;
+  border-color: #ca000c;
+  color: #ca000c;
+}
+
+.btn-outline-danger:hover{
+  background-color: #ffffff !important;
+  border-color: #ab000b;
+  color: #ab000b;
+}

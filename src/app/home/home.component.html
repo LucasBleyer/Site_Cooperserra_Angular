@@ -1,65 +1,62 @@
-<section class="body">
-  <div class="bg banner_home"></div>
-    <section class="historia_maca">
-      <h1>A Origem e História da Maçã</h1>
+<div class="container">
+  <div class="row justify-content-md-center m-3">
+    <div class="mt-5">
+      <h1 class="text-danger">A Origem e História da Maçã</h1>
       <p>A maçã é o fruto mais icônico do mundo, cultivado há milênios é símbolo de bondade e saúde.</p>
-      <br>
-      <p>O fruto da macieira, planta proveniente da região do Cáucaso e da Ásia Central, chegou ao Brasil em meados da década de 1920, mais precisamente em São Paulo, pelos imigrantes.</p>
-      <br>
-      <p>É inegável a importância de fatores climáticos no desenvolvimento da macieira e na produção de frutos. A fruta, que se tornou símbolo das regiões mais frias do país, tem excelentes propriedades medicinais e
-        <!-- <button
-        (click)="abrirReceitas(modalReceitas)"
-        type="button"
-        class="btn btn-outline-danger">
-        receitas que dão água na boca
-        </button> -->
-      </p>
-      <br>
-      <p>Há um ditado que diz, "Uma maçã por dia garante uma vida sadia!". Ele não surgiu à toa, já que a fruta tem uma grande concentração de fibras e vitaminas importantes para a prevenção de diversas doenças.</p>
-      <h1>Produção Nacional</h1>
-      <p>O Brasil tornou-se um grande produtor de maçãs desde a metade dos anos 70, sendo os principais estados responsáveis por grande quantidade da produção: Santa Catarina, Rio Grande do Sul, São Paulo e Paraná.</p>
-      <br>
-      <p>Atualmente, o Brasil conta com uma safra anual acima de 1 milhão de toneladas, de excelente qualidade, sendo a Gala e a Fuji as variedades mais comercializadas.</p>
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-sm">
-            <div class="card text-center mb-5">
-              <div class="card-header text-muted">
-                Curiosidades
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-danger">Gala e Fuji</h5>
-                <p class="card-text">Você sabe quais são as diferenças entre as maçãs <br> Gala e a Fuji?</p>
-                <button
-                (click)="abrirDiferencas(modalDiferencas)"
-                type="button"
-                class="btn btn-danger">
-                Conheça Agora
-                </button>
-              </div>
+      <p>O fruto da macieira, planta proveniente da região do Cáucaso e da Ásia Central, chegou ao Brasil em meados da década de 1920,
+          mais precisamente em São Paulo, pelos imigrantes.</p>
+      <p>É inegável a importância de fatores climáticos no desenvolvimento da macieira e na produção de frutos.
+        A fruta, que se tornou símbolo das regiões mais frias do país, tem excelentes propriedades medicinais e receitas que dão água na boca</p>
+      <p>Há um ditado que diz, "Uma maçã por dia garante uma vida sadia!". Ele não surgiu à toa,
+        já que a fruta tem uma grande concentração de fibras e vitaminas importantes para a prevenção de diversas doenças.</p>
+      <h1 class="text-danger">Produção Nacional</h1>
+      <p>O Brasil tornou-se um grande produtor de maçãs desde a metade dos anos 70,
+        sendo os principais estados responsáveis por grande quantidade da produção: Santa Catarina, Rio Grande do Sul, São Paulo e Paraná.</p>
+      <p>Atualmente, o Brasil conta com uma safra anual acima de 1 milhão de toneladas,
+        de excelente qualidade, sendo a Gala e a Fuji as variedades mais comercializadas.</p>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm">
+          <div class="card text-center mb-5">
+            <div class="card-header text-muted">
+              Curiosidades
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-danger">Gala e Fuji</h5>
+              <p class="card-text">Você sabe quais são as diferenças entre as maçãs <br> Gala e a Fuji?</p>
+              <button
+              (click)="abrirDiferencas(modalDiferencas)"
+              type="button"
+              class="btn btn-danger">
+              Conheça Agora
+              </button>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card text-center mb-5">
-              <div class="card-header text-muted">
-                Curiosidades
-              </div>
-              <div class="card-body">
-                <h5 class="card-title text-danger">Tabela Nutricional da Maçã</h5>
-                <p class="card-text">Acompanhe as informações nutricionais que uma maçã carrega!</p>
-                <button
-                (click)="abrirTabela(modalTabela)"
-                type="button"
-                class="btn btn-danger">
-                Abrir Tabela
-                </button>
-              </div>
+        </div>
+        <div class="col-sm">
+          <div class="card text-center mb-5">
+            <div class="card-header text-muted">
+              Curiosidades
+            </div>
+            <div class="card-body">
+              <h5 class="card-title text-danger">Tabela Nutricional da Maçã</h5>
+              <p class="card-text">Acompanhe as informações nutricionais que uma maçã carrega em sua tabela nutricional!</p>
+              <button
+              (click)="abrirTabela(modalTabela)"
+              type="button"
+              class="btn btn-danger">
+              Abrir Tabela
+              </button>
             </div>
           </div>
         </div>
       </div>
-  </section>
-</section>
+    </div>
+  </div>
+</div>
+
 
 <ng-template #modalDiferencas let-modal>
   <div class="modal-header">
