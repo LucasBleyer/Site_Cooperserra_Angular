@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-produtos',
@@ -8,11 +9,15 @@ import { Title } from '@angular/platform-browser';
 })
 export class ProdutosComponent implements OnInit {
 
-  constructor(title: Title) {
+  constructor(title: Title, private modalService: NgbModal) {
     title.setTitle("Cooperserra | Produtos")
    }
 
   ngOnInit(): void {
+  }
+
+  public abrirReceita(modalReceita: TemplateRef<NgbModal>){
+    this.modalService.open(modalReceita);
   }
 
 }

@@ -155,9 +155,83 @@
         <h1 class="text-danger">Receitas com Maçã</h1>
         <p>Separamos as melhores receitas com maçã da <br> Serra Catarinense!</p>
       </div>
-      <div class="botao_receitas">
-        <a href="#">Confira!</a>
+
+      <div class="row">
+        <button
+        (click)="abrirReceita(modalReceita1)"
+        type="button"
+        class="btn btn-danger">
+        Bolo de Maçã
+        </button>
       </div>
+
+      <ng-template #modalReceita1 let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title text-danger" id="modal-basic-title">Receita Bolo de Maçã</h4>
+          <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Fechar')"></button>
+        </div>
+          <div class="modal-body">
+            <img src="../../assets/img/receitas/bolo_de_maca.png" class="w-100">
+          </div>
+      </ng-template>
+
+      <div class="row mt-3">
+        <button
+        (click)="abrirReceita(modalReceita2)"
+        type="button"
+        class="btn btn-danger">
+        Geleia de Maçã
+        </button>
+      </div>
+
+      <ng-template #modalReceita2 let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title text-danger" id="modal-basic-title">Receita Geleia de Maçã</h4>
+          <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Fechar')"></button>
+        </div>
+          <div class="modal-body">
+            <img src="../../assets/img/receitas/geleia de maca.png" class="w-100">
+          </div>
+      </ng-template>
+
+      <div class="row mt-3">
+        <button
+        (click)="abrirReceita(modalReceita3)"
+        type="button"
+        class="btn btn-danger">
+        Maçã do Amor
+        </button>
+      </div>
+
+      <ng-template #modalReceita3 let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title text-danger" id="modal-basic-title">Receita Maçã do Amor</h4>
+          <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Fechar')"></button>
+        </div>
+          <div class="modal-body">
+            <img src="../../assets/img/receitas/maca_do_amor.png" class="w-100">
+          </div>
+      </ng-template>
+
+      <div class="row mt-3">
+        <button
+        (click)="abrirReceita(modalReceita4)"
+        type="button"
+        class="btn btn-danger">
+        Torta de Maçã
+        </button>
+      </div>
+
+      <ng-template #modalReceita4 let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title text-danger" id="modal-basic-title">Receita Torta de Maçã</h4>
+          <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Fechar')"></button>
+        </div>
+          <div class="modal-body">
+            <img src="../../assets/img/receitas/torta_de_maca.png" class="w-100">
+          </div>
+      </ng-template>
+
     </section>
   </section>
 </section>
